@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Historic Trophy</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+    <div class="museum-card">
+
+        <!-- Trophy Title -->
+
+        <h1 id="title" class="title">
+
+            Loading...
+
+        </h1>
+
+        <!-- Subtitle -->
+
+        <p id="subtitle" class="subtitle">
+
+        </p>
+
+        <div class="gold-divider"></div>
+
+        <!-- Trophy Image -->
+
+        <div class="image-wrapper">
+
+            <img
+                id="trophyImage"
+                class="trophy-image"
+                src=""
+                alt="Historic Trophy">
+
+        </div>
+
+        <p class="tap-text">
+
+            🔍 Tap image to view in full size
+
+        </p>
+
+        <!-- Audio -->
+
+        <div class="audio-section">
+
+            <button
+                id="playButton"
+                class="audio-btn">
+
+                🎧 Audio Guide
+
+            </button>
+
+            <audio id="audioPlayer"></audio>
+
+        </div>
+
+    </div>
+
+    <!-- Facts -->
+
+    <div class="museum-card">
+
+        <h2 class="section-title">
+
+            KEY FACTS
+
+        </h2>
+
+        <div class="section-divider"></div>
+
+        <div
+            id="factsContainer"
+            class="facts-container">
+
+        </div>
+
+    </div>
+
+    <!-- Story -->
+
+    <div class="museum-card">
+
+        <h2 class="section-title">
+
+            HISTORICAL BACKGROUND
+
+        </h2>
+
+        <div class="section-divider"></div>
+
+        <p
+            id="summary"
+            class="summary">
+
+        </p>
+
+    </div>
+
+</div>
+
+<!-- Image Popup -->
+
+<div
+    id="imageModal"
+    class="image-modal">
+
+    <span
+        id="closeModal"
+        class="close-btn">
+
+        &times;
+
+    </span>
+
+    <img
+        id="modalImage"
+        class="modal-image">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

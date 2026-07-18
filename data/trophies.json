@@ -1,0 +1,17 @@
+[
+    {
+        "id": "seringapatam-trophy",
+        "title": "Seringapatam Trophy",
+        "subtitle": "Military Trophy • Fourth Anglo-Mysore War • 1799",
+        "image": "seringapatnam-trophy.jpeg",
+        "audio": "seringapatam-story.mp3",
+        "facts": {
+            "Recipient": "British Army",
+            "Presented By": "Major General George Harris",
+            "Date": "04 November 1799",
+            "Material": "Sterling Silver",
+            "Occasion": "Victory over Tipu Sultan"
+        },
+        "summary": "The Seringapatam Trophy commemorates the British victory during the Siege of Seringapatam in 1799..."
+    }
+]
